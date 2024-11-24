@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    background-color: brown;
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+#left{
+    background-color: rgb(20, 0, 99);
+    display: flex;
+    flex-direction: column;
+    width:20%;
+}
+#left .item{
+    text-align: center;
+    align-content: center;
+    background-color: rgb(197, 40, 40);
+    border: 3px solid rgb(158, 158, 158);
+    height: 45px;
+    border-right: 3px solid rgb(20,0,99);
+    border-left: 3px solid rgb(20,0,99);
+    border-bottom: 3px solid rgb(20,0,99);
+}
+#left .item-1{
+    margin-top: 25px;
+}
+#left .item a{
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: large;
+}
+#right{
+    background-color:rgb(172, 146, 66);
+    display: flex;
+    flex-direction: column;
+    width:79%;
+    height: auto;
+    padding-right: 3%;
+}
+#left .item:hover{
+    background-color: rgb(134, 58, 0);
+}
+#left .item a:hover{
+    color:rgb(255, 255, 0);
+    font-size: larger;
+}
+
+.items{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    margin-top: 50px;
+    width:80%;
+    font-size: 25px;
+    justify-content: space-around;
+    padding: 2%;
+}
+#col1{
+    text-align: center;
+    width:15%;
+}
+#one{
+    margin-bottom: 33px;
+}
+#col2{
+    text-align: center;
+    width: 30%;
+}
+#two{
+    margin-bottom: 33px;
+}
+#col3{
+    text-align: center;
+    width: 18%;
+}
+#three{
+    margin-bottom: 33px;
+}
+#col4{
+    text-align: center;
+    color:rgb(0, 255, 17);
+    font-weight: 600;
+    width: 12%;
+}
+#four{
+    margin-bottom: 28px;
+    border: 3px solid rgb(0, 255, 0);
+    border-top-right-radius: 100%;
+    border-bottom-right-radius: 100%;
+    background-color: rgb(0, 0, 83);
+    width:90%;
+}
+#col5{
+    width:13%;
+    text-align: center;
+    width: 35%;
+}
+#head-1{
+    font-weight: bold;
+    margin-bottom: 25px;
+    color: rgb(33, 0, 116);
+    background-color: rgb(155, 208, 255);
+    border-top: 3px solid rgb(33,0,116);
+    border-bottom: 3px solid rgb(33,0,116);
+    border-left: 3px solid rgb(33,0,116);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+#head-5{
+    font-weight: bold;
+    margin-bottom: 25px;
+    color: rgb(33, 0, 116);
+    background-color: rgb(155, 208, 255);
+    border-top: 3px solid rgb(33,0,116);
+    border-bottom: 3px solid rgb(33,0,116);
+    border-right: 3px solid rgb(33,0,116);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+#head{
+    font-weight: bold;
+    margin-bottom: 25px;
+    color: rgb(33, 0, 116);
+    background-color: rgb(155, 208, 255);
+    border-top: 3px solid rgb(33,0,116);
+    border-bottom: 3px solid rgb(33,0,116);
+}
+#col5 #click{
+    text-align: center;
+    height: 10%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 25px;
+}
+#heading{
+    margin-top:2%;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 2%;
+}
+.items{
+    background-color: burlywood;
+    border:5px solid green;
+    border-radius: 15px;
+    padding:20px;
+}
+#col5 #click #accept{
+    margin-left: 28%;
+    background-color: rgb(52, 180, 52);
+    color: azure;
+    font-weight: 500;
+    padding: 2px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+#col5 #click #reject{
+    background-color: rgb(180, 52, 52);
+    color: azure;
+    font-weight: 500;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 3px;
+    padding-right: 3px;
+    margin-left: 12%;
+}
+#col5 #click #accept:hover{
+    background-color: rgb(52, 180, 52);
+    color: azure;
+    font-weight: bold;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 4px;
+    padding-right: 4px;
+    border-left: 2px solid rgb(20,0,99);
+    border-top: 2px solid rgb(20,0,99);
+}
+#col5 #click #reject:hover{
+    background-color: rgb(180, 52, 52);
+    color: azure;
+    font-weight: bold;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 4px;
+    padding-right: 4px;
+    border-left: 2px solid rgb(20,0,99);
+    border-top: 2px solid rgb(20,0,99);
+}
+
+
+@media screen and (max-width:728px){
+    #left{
+        width:25%;
+    }
+    #right{
+        width:75%;
+    }
+    #left .item{
+        height:55px;
+    }
+
+}
